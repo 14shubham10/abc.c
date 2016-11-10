@@ -1,6 +1,6 @@
 Compiled from "JTextComponent.java"
 public abstract class javax.swing.text.JTextComponent extends javax.swing.JComponent implements javax.swing.Scrollable,javax.accessibility.Accessible{
-    public static final java.lang.String FOCUS_ACCELERATOR_KEY;
+    default static final java.lang.String FOCUS_ACCELERATOR_KEY;
     public static final java.lang.String DEFAULT_KEYMAP;
     public javax.swing.text.JTextComponent();
     public javax.swing.plaf.TextUI getUI();
